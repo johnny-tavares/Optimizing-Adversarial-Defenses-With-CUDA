@@ -8,7 +8,7 @@ A lightweight toolkit for evaluating adversarial robustness and inference perfor
 * **Inference Timing:** Synchronized CUDA benchmarking with warmup cycles and disabled GC for high-precision latency measurement.
 * **Feature Squeezing:** Custom **CUDA C++ kernels** (inline JIT compiled) for fused median filtering and bit-depth reduction (posterization).
 
-## 🛠 Requirements
+## Requirements
 
 * **CUDA Toolkit** (Properly configured `nvcc`)
 * **Python 3.8+**
